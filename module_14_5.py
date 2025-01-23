@@ -8,7 +8,7 @@ import asyncio
 from crud_functions import *
 
 logging.basicConfig(level= logging.INFO)
-api = '7266456982:AAHD3565fBvroH2CqC3dHrOKO7nquuQeQzI'
+api = 'токен'
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
